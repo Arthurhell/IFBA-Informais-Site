@@ -28,8 +28,13 @@
 
 .footer-contato li a {
     color: #fff;
+    transition: 0.3s ease-in-out;
 }
 
+.footer-contato li a:hover {
+    color: #701cda;
+    cursor: pointer;
+}
 .footer-copy {
     grid-column: 1 / -1;
     font-size: 1.125rem;
