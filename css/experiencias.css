@@ -98,6 +98,8 @@
     }
     .experiencia-texto {
         font-size: 1.25rem;
+        display: flex;
+        flex-wrap: wrap;
     }
     .empresa-ano {
         position: initial;
