@@ -10,7 +10,8 @@
 .header img {
     height: 80px;
     width: 80px;
-    justify-content: center;
+    justify-items: center;
+    align-items: center;
 }
 
 .header-menu {

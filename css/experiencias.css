@@ -1,9 +1,9 @@
 .experiencia {
-    max-width: 1160px;
+    max-width: 1200px;
     padding: 40px 20px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 100px;
 }
 
@@ -50,7 +50,7 @@
     top: 22px;
     left: -100px;
     color: #525252;
-    font-size: 0.875rem;
+    font-size: .875rem;
     width: 80px;
     text-align: right;
 }
@@ -62,7 +62,7 @@
 }
 
 .empresa-texto {
-    font-size: 0.875rem;
+    font-size: .875rem;
     line-height: 1.4;
     color: #525252;
 }
@@ -75,7 +75,7 @@
 }
 
 .empresa-habilidades li {
-    font-size: 0.875rem;
+    font-size: .875rem;
     line-height: 1.4;
     border-radius: 4px;
     background: #e0e0e0;
